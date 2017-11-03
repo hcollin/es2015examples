@@ -1,5 +1,5 @@
 /**
- * Example of arrow functions
+ * Example of arrow functions lexical scope
  *
  * Run with node arrows.js
  *
