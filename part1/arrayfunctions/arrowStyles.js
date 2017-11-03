@@ -32,4 +32,4 @@ callbackCaller((i, s) => {
 });
 
 // The last line of the arrow function is automatically returned and single line functions can omit curly brackets.
-callbackCaller((i) => i+5);
+callbackCaller(i => i+5);
