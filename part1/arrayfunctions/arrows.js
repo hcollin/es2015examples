@@ -10,11 +10,12 @@
 
 
 function oldWay() {
+    var self = this;
     this.a = 0;
     const clearMe = setInterval(function() {
-        this.a++;
-        console.log("tick ", this.a);
-        if(this.a >=5) {
+        self.a++;
+        console.log("tick ", self.a);
+        if(self.a >=5) {
             clearInterval(clearMe);
         }
     }, 200);
@@ -33,5 +34,5 @@ function newWay() {
 
 
 
-oldWay();
-//newWay();
+//oldWay();
+newWay();

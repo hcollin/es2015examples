@@ -35,8 +35,8 @@ function constModifyTest() {
 }
 
 
-//constReassignTest();
-constModifyTest();
+constReassignTest();
+//constModifyTest();
 
 
 
